@@ -8,61 +8,67 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,450;0,7..72,500;1,7..72,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="4" fill="#0F4C5C"/><path d="M9 10h14M9 15h14M9 20h9" stroke="#F7F6F1" stroke-width="2" stroke-linecap="round"/><circle cx="23" cy="21" r="3" fill="#E3A325"/></svg>Her Own Worth</a>
+    <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="4" fill="#F2A900"/><path d="M9 10h14M9 15h14M9 20h9" stroke="#06262F" stroke-width="2.6" stroke-linecap="round"/><circle cx="23" cy="21" r="3.2" fill="#06262F"/></svg>Her Own Worth</a>
     <button class="menu-btn" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">Menu</button>
     <nav class="main" id="nav" aria-label="Main">
       <a href="index.html">Home</a>
       <a href="programme.html" aria-current="page">The programme</a>
       <a href="research.html">Research</a>
-      <a href="employers.html">For employers</a>
       <a href="about.html">About</a>
+      <a class="cta" href="employers.html">Host the programme</a>
     </nav>
   </div>
 </header>
 <main>
 
-<section class="page-head">
-  <div class="wrap">
-    <p class="kicker">The programme</p>
-    <h1>Five sessions. One room. Her own budget.</h1>
-    <p class="lead">Her Own Worth is a short financial education course delivered at the workplace. It is designed for women who earn a monthly wage and have never been taught how money works.</p>
-  </div>
+<section class="hero short">
+  <div class="text"><div>
+    <h1 class="reveal">Five sessions. One room. <em>Her</em> own budget.</h1>
+    <p class="lead reveal d1">A short financial education course delivered at the workplace, for women who earn a monthly wage and have never been taught how money works.</p>
+    <div class="actions reveal d2"><a class="btn" href="employers.html">Host the programme</a></div>
+  </div></div>
+  <div class="pic"><img src="https://images.unsplash.com/photo-1707721690544-781fe6ede937?auto=format&fit=crop&q=75&w=1600" alt="Three women working together in a field, smiling" fetchpriority="high" style="--pos:50% 30%"><span class="credit">Photo: Unsplash</span></div>
 </section>
 
-<section class="tight">
+<section>
   <div class="wrap split">
-    <div><h2>Who it is for</h2></div>
     <div>
-      <p>Women earning roughly Rs 10,000 to Rs 30,000 a month in hospitality, housekeeping, kitchens, front desks, shops, factories and households. Most have a bank account that someone else opened for salary. Few have savings, insurance or a pension in their own name.</p>
-      <p>Many are the most reliable earners in their families. The programme starts from that fact.</p>
+      <span class="eyebrow">Who it is for</span>
+      <h2>The most reliable earners in their families.</h2>
+      <p class="lead">Women earning roughly Rs 10,000 to Rs 30,000 a month in hospitality, housekeeping, kitchens, front desks, shops, factories and households.</p>
+      <p>Most have a bank account that someone else opened for salary. Few have savings, insurance or a pension in their own name. Many are the steadiest income in the household. The programme starts from that fact.</p>
     </div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1688013566793-849ce35316e6?auto=format&fit=crop&q=75&w=1000" alt="Women at work in a market" loading="lazy"></div>
   </div>
 </section>
 
-<section class="tint">
+<section class="mist">
   <div class="wrap">
-    <h2>The five sessions</h2>
-    <p class="muted">Each session is about 45 minutes, in Marathi or Hindi, on paid time. Sessions are a sequence; each builds on the previous one.</p>
+    <span class="eyebrow">The five sessions</span>
+    <h2>Each one builds on the last.</h2>
+    <p class="muted" style="margin-bottom:30px">About 45 minutes each, in Marathi or Hindi, on paid time.</p>
     <ol class="sessions">
-      <li><h3>Where the money goes</h3><p>Every participant writes her own monthly budget on paper. We work out together how much is left, and what an emergency fund of one to three months' expenses would take to build.</p></li>
-      <li><h3>How saving grows</h3><p>Compounding, explained with a jar and a calendar. How recurring deposits, mutual fund SIPs and small pension schemes work in principle, and what questions to ask before opening any of them.</p></li>
-      <li><h3>Protecting the family</h3><p>What term and health insurance do, what they cost, and how the government schemes (PMJJBY, PMSBY, Atal Pension Yojana) work. How to read a policy before signing it.</p></li>
-      <li><h3>Old age, her own</h3><p>Women live longer, take career breaks and are more likely to be widowed. Why retirement savings in her own name matter, and how small amounts over many years add up.</p></li>
-      <li><h3>The real cost of borrowing</h3><p>Moneylenders, chit funds, gold loans, app loans and buy-now-pay-later, compared on one page. How to work out what a loan truly costs in a year, and what to do when a debt gets out of hand.</p></li>
+      <li><h3>Where the money goes</h3><p>Every participant writes her own monthly budget on paper. Together we work out what is left, and what an emergency fund of one to three months' expenses would take.</p></li>
+      <li><h3>How saving grows</h3><p>Compounding, explained with a jar and a calendar. How recurring deposits, mutual fund SIPs and small pension schemes work in principle, and what to ask before opening any of them.</p></li>
+      <li><h3>Protecting the family</h3><p>What term and health insurance do and cost. How the government schemes (PMJJBY, PMSBY, Atal Pension Yojana) work. How to read a policy before signing.</p></li>
+      <li><h3>Old age, her own</h3><p>Women live longer, take career breaks and are more often widowed. Why retirement savings in her own name matter, and how small amounts over many years add up.</p></li>
+      <li><h3>The real cost of borrowing</h3><p>Moneylenders, chit funds, gold loans, app loans and buy-now-pay-later on one page. How to work out what a loan truly costs in a year.</p></li>
     </ol>
   </div>
 </section>
 
 <section>
-  <div class="wrap split">
-    <div><h2>What she leaves with</h2></div>
+  <div class="wrap split text-first">
     <div>
+      <span class="eyebrow">What she leaves with</span>
+      <h2>Hers to keep.</h2>
       <ul class="rows">
         <li><b>A budget</b><p>Written in her own hand, in her own language, for her own household.</p></li>
         <li><b>A checklist</b><p>The questions to ask any bank, agent or lender before signing anything, and the warning signs of a bad product.</p></li>
@@ -70,22 +76,18 @@
         <li><b>A follow-up</b><p>Three months later we ask, voluntarily, what changed. The answers improve the next course.</p></li>
       </ul>
     </div>
+    <div class="photo tall"><img src="https://images.unsplash.com/photo-1463335361701-e90f4c5045d0?auto=format&fit=crop&q=75&w=1000" alt="A woman in a patterned scarf, smiling" loading="lazy"></div>
   </div>
 </section>
 
-<section class="tint tight">
+<section class="dark">
   <div class="wrap split">
-    <div><h2>How we measure</h2></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1759738101500-6d8d522b2681?auto=format&fit=crop&q=75&w=1000" alt="A group of women and children" loading="lazy"></div>
     <div>
-      <p>Before the first session and three months after the last, participants who choose to can answer a short survey: whether they save something every month, whether they have an emergency fund, whether they hold an account in their own name, who decides on money at home, and five plain-language questions on how money works.</p>
-      <p>Answers are anonymised and reported only in aggregate. No one is asked to share account details, balances or investments, and nobody is asked to buy anything. See <a href="research.html">what we're learning</a>.</p>
-    </div>
-  </div>
-</section>
-<section class="tight" id="disclaimer">
-  <div class="wrap">
-    <div class="note">
-      <strong>What we are and are not.</strong> Her Own Worth is a financial education programme. It does not give investment advice, does not recommend, sell or distribute any financial product, and is not registered as an investment adviser. Sessions explain how money, saving, insurance and borrowing work in plain language; every decision stays with the participant.
+      <span class="eyebrow">How we measure</span>
+      <h2>Before, and three months after.</h2>
+      <p>Participants who choose to can answer a short survey before the first session and three months after the last: whether they save something every month, whether they have an emergency fund, whether they hold an account in their own name, who decides on money at home, and five plain-language questions on how money works.</p>
+      <p>Answers are anonymised and reported only in aggregate. No one is asked to share account details, balances or investments, and nobody is asked to buy anything. <a href="research.html">See what we're learning.</a></p>
     </div>
   </div>
 </section>
@@ -94,27 +96,45 @@
 <footer>
   <div class="wrap">
     <div>
-      <h4>Her Own Worth</h4>
+      <div class="brand">Her Own Worth</div>
       <p>Financial education for women who earn, delivered where they work. Founded in Mumbai, 2026.</p>
     </div>
     <div>
-      <h4>Pages</h4>
+      <h4>PAGES</h4>
       <ul>
         <li><a href="programme.html">The programme</a></li>
         <li><a href="research.html">Research</a></li>
-        <li><a href="employers.html">For employers</a></li>
+        <li><a href="employers.html">Host the programme</a></li>
         <li><a href="about.html">About and contact</a></li>
       </ul>
     </div>
     <div>
-      <h4>Contact</h4>
+      <h4>CONTACT</h4>
       <ul>
         <li><a href="mailto:hello@herownworth.com">hello@herownworth.com</a></li>
         <li>Alibag and Mumbai, Maharashtra</li>
       </ul>
     </div>
-    <div class="legal">&copy; 2026 Her Own Worth. Participant data is collected with written consent and reported only in anonymised form.</div>
+    <div class="legal">&copy; 2026 Her Own Worth. Her Own Worth is a financial education programme. It does not give investment advice, does not recommend, sell or distribute any financial product, and is not registered as an investment adviser. Participant data is collected with written consent and reported only in anonymised form. Photographs on this site are stock images from Unsplash until participant photographs are added with consent.</div>
   </div>
 </footer>
+<script>
+(function(){
+  var els=document.querySelectorAll('[data-count]');
+  if(!('IntersectionObserver' in window)||!els.length) return;
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting) return; io.unobserve(e.target);
+      var el=e.target, end=parseInt(el.getAttribute('data-count'),10), pre=el.getAttribute('data-prefix')||'', suf=el.getAttribute('data-suffix')||'';
+      if(reduce){ el.textContent=pre+end+suf; return; }
+      var t0=null, dur=1400;
+      function step(ts){ if(!t0) t0=ts; var p=Math.min(1,(ts-t0)/dur); p=1-Math.pow(1-p,3); el.textContent=pre+Math.round(end*p)+suf; if(p<1) requestAnimationFrame(step); }
+      requestAnimationFrame(step);
+    });
+  },{threshold:.4});
+  els.forEach(function(el){ el.textContent=(el.getAttribute('data-prefix')||'')+'0'+(el.getAttribute('data-suffix')||''); io.observe(el); });
+})();
+</script>
 </body>
 </html>

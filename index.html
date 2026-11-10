@@ -8,137 +8,159 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,450;0,7..72,500;1,7..72,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="4" fill="#0F4C5C"/><path d="M9 10h14M9 15h14M9 20h9" stroke="#F7F6F1" stroke-width="2" stroke-linecap="round"/><circle cx="23" cy="21" r="3" fill="#E3A325"/></svg>Her Own Worth</a>
+    <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="4" fill="#F2A900"/><path d="M9 10h14M9 15h14M9 20h9" stroke="#06262F" stroke-width="2.6" stroke-linecap="round"/><circle cx="23" cy="21" r="3.2" fill="#06262F"/></svg>Her Own Worth</a>
     <button class="menu-btn" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">Menu</button>
     <nav class="main" id="nav" aria-label="Main">
       <a href="index.html" aria-current="page">Home</a>
       <a href="programme.html">The programme</a>
       <a href="research.html">Research</a>
-      <a href="employers.html">For employers</a>
       <a href="about.html">About</a>
+      <a class="cta" href="employers.html">Host the programme</a>
     </nav>
   </div>
 </header>
 <main>
 
 <section class="hero">
-  <div class="wrap">
-    <div>
-      <p class="kicker">Financial education for women who earn</p>
-      <h1>Money in her own name.</h1>
-      <p class="lead">Her Own Worth teaches women earning between Rs 10,000 and Rs 30,000 a month how money works: budgeting, saving, insurance, borrowing and planning for old age. Sessions happen where they work, in their own language, on paid time.</p>
-      <div class="actions">
-        <a class="btn" href="programme.html">See the programme</a>
-        <a class="btn ghost" href="employers.html">Bring it to your staff</a>
-      </div>
-      <p class="fact">The programme began in 2026 with 20 women on the staff of a beach resort in Alibag, Maharashtra. It is built to travel: any employer with women on the payroll can host it.</p>
-    </div>
-    <div class="ledger" aria-label="Illustration: a savings ledger in a participant's own name">
-      <div class="head"><b>Account holder: Sunita</b><span>in her own name</span></div>
-      <table>
-        <thead><tr><th>Month</th><th>Set aside</th><th>Running total</th></tr></thead>
-        <tbody>
-          <tr class="row"><td>June</td><td class="n">Rs 500</td><td>Rs 500</td></tr>
-          <tr class="row"><td>July</td><td class="n">Rs 500</td><td>Rs 1,000</td></tr>
-          <tr class="row"><td>August</td><td class="n">Rs 700</td><td>Rs 1,700</td></tr>
-          <tr class="row"><td>September</td><td class="n">Rs 700</td><td>Rs 2,400</td></tr>
-          <tr class="row"><td>October</td><td class="n">Rs 1,000</td><td>Rs 3,400</td></tr>
-          <tr class="row"><td>November</td><td class="n">Rs 1,000</td><td>Rs 4,400</td></tr>
-          <tr class="sum"><td>Six months</td><td class="n"></td><td>Rs 4,400</td></tr>
-        </tbody>
-      </table>
-      <span class="stamp">Hers, not the household's</span>
-    </div>
-  </div>
+  <div class="text"><div>
+    <h1 class="reveal">Money in <em>her own</em> name.</h1>
+    <p class="lead reveal d1">Her Own Worth teaches women earning Rs 10,000 to Rs 30,000 a month how money works: budgeting, saving, insurance, borrowing and old age. Five sessions, at their workplace, in their language, on paid time.</p>
+    <div class="actions reveal d2"><a class="btn" href="employers.html">Host the programme</a> <a class="btn outline" href="programme.html">See how it works</a></div>
+  </div></div>
+  <div class="pic"><img src="https://images.unsplash.com/photo-1587538018365-2a1f8b544c08?auto=format&fit=crop&q=75&w=1600" alt="Women in bright saris standing together outside a blue wall" fetchpriority="high" style="--pos:50% 20%"><span class="credit">Photo: Unsplash</span></div>
 </section>
-
-<div class="wrap"><div class="ledger-rule double"></div></div>
+<div class="stats" aria-label="Programme at a glance">
+  <div class="wrap">
+    <div><b data-count="20">20</b><span>women in the first cohort, Alibag 2026</span></div>
+    <div><b data-count="5">5</b><span>sessions of 45 minutes, on paid time</span></div>
+    <div><b data-count="0" data-prefix="Rs ">Rs 0</b><span>paid by participants. Nothing is ever sold to them</span></div>
+    <div><b data-count="40" data-suffix="%">40%</b><span>of India's wealth is held by the richest 1%</span></div>
+  </div>
+</div>
 
 <section>
   <div class="wrap split">
+    <div class="photo tall"><img src="https://images.unsplash.com/photo-1729077537326-91749c1c9197?auto=format&fit=crop&q=75&w=1000" alt="A hand holding a fan of 500 rupee notes" loading="lazy"></div>
     <div>
-      <h2>Why it exists</h2>
-    </div>
-    <div>
-      <p class="lead">India's wealth is unusually concentrated. The World Inequality Lab estimates that the richest 1% hold about 40% of national wealth. At the other end, women in low-paid work are the least likely of any group to have savings, insurance or a pension in their own name.</p>
-      <p>The gap is not only money. It is information. Nobody has explained compounding, or what an emergency fund is for, or how to compare a moneylender's rate with a bank's. Her Own Worth exists to close that gap, one workplace at a time.</p>
-      <p><a href="about.html">Read how it started</a></p>
+      <span class="eyebrow">Why we exist</span>
+      <p class="bignum">40<small>%</small></p>
+      <h2>Of India's wealth sits with one percent of Indians.</h2>
+      <p class="lead">At the other end, women in low-paid work are the least likely of any group to hold savings, insurance or a pension in their own name.</p>
+      <p>The gap is not only money. It is information. Nobody has ever explained compounding to them, or what an emergency fund is for, or how to compare a moneylender's rate with a bank's. Her Own Worth closes that gap, one workplace at a time.</p>
+      <p class="muted" style="font-size:.9rem">Wealth share from the World Inequality Lab, 2022-23.</p>
     </div>
   </div>
 </section>
 
-<section class="tint">
+<section class="mist">
   <div class="wrap">
-    <h2>How it works</h2>
-    <ul class="rows">
-      <li><b>The employer hosts</b><p>A room, five short sessions on paid time, and a list of the women who want to take part. Nothing else is asked of the employer.</p></li>
-      <li><b>We teach</b><p>Five sessions of about 45 minutes, in Marathi or Hindi, built around the participants' own monthly budgets. Plain language, no jargon, no products.</p></li>
-      <li><b>She decides</b><p>Each woman leaves with a written budget she made herself, a list of the questions to ask any bank or agent, and the confidence to act on her own account.</p></li>
-      <li><b>We check back</b><p>A short, voluntary survey before the programme and three months after it tells us what changed and what we should teach better. Results are reported only in anonymised form.</p></li>
-    </ul>
+    <span class="eyebrow">How it works</span>
+    <h2 style="max-width:16ch">Five sessions. One room. Her own budget.</h2>
+    <div class="cards" style="margin-top:34px">
+      <article class="card"><div class="img"><img src="https://images.unsplash.com/photo-1688013566793-849ce35316e6?auto=format&fit=crop&q=75&w=800" alt="Women working at market stalls" loading="lazy"></div><div class="body"><span class="step">1</span><h3>The employer hosts</h3><p>A room, five short sessions on paid time, and a list of women who want to take part. Nothing else is asked.</p></div></article>
+      <article class="card"><div class="img"><img src="https://images.unsplash.com/photo-1707721690544-781fe6ede937?auto=format&fit=crop&q=75&w=800" alt="Three women working together outdoors" loading="lazy"></div><div class="body"><span class="step">2</span><h3>We teach</h3><p>Five sessions of about 45 minutes in Marathi or Hindi, built around each participant's own monthly budget. No jargon, no products.</p></div></article>
+      <article class="card"><div class="img"><img src="https://images.unsplash.com/photo-1754591254914-cf2d9819e6be?auto=format&fit=crop&q=75&w=800" alt="A woman seated, thinking" loading="lazy"></div><div class="body"><span class="step">3</span><h3>She decides</h3><p>Each woman leaves with a budget in her own hand, the questions to ask any bank or agent, and the confidence to act on her own account.</p></div></article>
+      <article class="card"><div class="img"><img src="https://images.unsplash.com/photo-1759738101500-6d8d522b2681?auto=format&fit=crop&q=75&w=800" alt="A group of women and children in a village" loading="lazy"></div><div class="body"><span class="step">4</span><h3>We check back</h3><p>A short, voluntary survey before and three months after tells us what changed. Results are reported only in anonymised form.</p></div></article>
+    </div>
   </div>
 </section>
+
+<div class="band">
+  <img class="bg" src="https://images.unsplash.com/photo-1463335361701-e90f4c5045d0?auto=format&fit=crop&q=75&w=2000" alt="" loading="lazy">
+  <div class="wrap">
+    <span class="eyebrow" style="color:var(--gold)">Our standard</span>
+    <h2>The explanation a wealthy client gets should not depend on income.</h2>
+    <p class="lead">We teach to that standard. Every participant gets the same clarity, the same patience and the same respect, whatever she earns.</p>
+    <a class="btn" href="about.html">Why we started</a>
+  </div>
+  <span class="credit">Photo: Unsplash</span>
+</div>
 
 <section>
   <div class="wrap">
-    <h2>In their words</h2>
-    <p class="muted" style="max-width:62ch">Participant quotes will appear here with their consent once the three-month follow-up is complete. The three below are placeholders and are marked as such.</p>
-    <div class="quotes">
-      <article class="quote"><span class="sample">Sample</span><blockquote>I had been earning for nine years and never had an account that was only mine. Now I do.</blockquote><cite>Housekeeping staff, Alibag (placeholder)</cite></article>
-      <article class="quote"><span class="sample">Sample</span><blockquote>The budget session was the first time anyone showed me where my salary actually goes each month.</blockquote><cite>Front desk, Alibag (placeholder)</cite></article>
-      <article class="quote"><span class="sample">Sample</span><blockquote>I finally understood what the moneylender's interest really costs me in a year.</blockquote><cite>Kitchen staff, Alibag (placeholder)</cite></article>
+    <span class="eyebrow">In their words</span>
+    <h2>What participants tell us</h2>
+    <p class="muted" style="max-width:62ch">Participant quotes and photographs will appear here with their consent once the three-month follow-up is complete. The three below are placeholders and are marked as such.</p>
+    <div class="quotes" style="margin-top:30px">
+      <article class="quote"><span class="sample">Sample</span><div class="img"><img src="https://images.unsplash.com/photo-1533128361669-69c065857a13?auto=format&fit=crop&q=75&w=700" alt="" loading="lazy"></div><blockquote>I had been earning for nine years and never had an account that was only mine. Now I do.</blockquote><cite>Housekeeping staff, Alibag (placeholder)</cite></article>
+      <article class="quote"><span class="sample">Sample</span><div class="img"><img src="https://images.unsplash.com/photo-1618245472177-2a74ad3b994a?auto=format&fit=crop&q=75&w=700" alt="" loading="lazy"></div><blockquote>The budget session was the first time anyone showed me where my salary actually goes each month.</blockquote><cite>Front desk, Alibag (placeholder)</cite></article>
+      <article class="quote"><span class="sample">Sample</span><div class="img"><img src="https://images.unsplash.com/photo-1622182605529-ee049ded8c82?auto=format&fit=crop&q=75&w=700" alt="" loading="lazy"></div><blockquote>I finally understood what the moneylender's interest really costs me in a year.</blockquote><cite>Kitchen staff, Alibag (placeholder)</cite></article>
     </div>
   </div>
 </section>
 
-<section class="tight">
-  <div class="wrap">
-    <div class="panel">
-      <h2>Have women on your payroll?</h2>
-      <p class="lead" style="color:rgba(255,255,255,.9)">Five sessions, one room, paid time. We bring everything else. Resorts, hotels, restaurants, factories, housing societies and households with domestic staff are all good hosts.</p>
-      <a class="btn" href="employers.html">How to host the programme</a>
+<section class="dark">
+  <div class="wrap split text-first">
+    <div>
+      <span class="eyebrow">Research</span>
+      <h2>What we're learning, and what the evidence says.</h2>
+      <p class="lead">Two literature reviews on women, saving and financial education in India are in preparation for December 2026, alongside field notes from the programme. None of it is advice. None of it describes an individual.</p>
+      <a class="btn" href="research.html">Read the research</a>
     </div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1699873728107-9ce97c8f78eb?auto=format&fit=crop&q=75&w=1000" alt="An older woman seated at a doorway" loading="lazy"></div>
   </div>
 </section>
-<section class="tight" id="disclaimer">
+
+<div class="band">
+  <img class="bg" src="https://images.unsplash.com/photo-1794247071981-024c69666617?auto=format&fit=crop&q=75&w=2000" alt="" loading="lazy">
   <div class="wrap">
-    <div class="note">
-      <strong>What we are and are not.</strong> Her Own Worth is a financial education programme. It does not give investment advice, does not recommend, sell or distribute any financial product, and is not registered as an investment adviser. Sessions explain how money, saving, insurance and borrowing work in plain language; every decision stays with the participant.
-    </div>
+    <h2>Have women on your payroll?</h2>
+    <p class="lead">Resorts, hotels, restaurants, factories, housing societies and households with domestic staff. Five sessions, one room, paid time. We bring everything else.</p>
+    <a class="btn" href="employers.html">Host the programme</a>
   </div>
-</section>
+  <span class="credit">Photo: Unsplash</span>
+</div>
 
 </main>
 <footer>
   <div class="wrap">
     <div>
-      <h4>Her Own Worth</h4>
+      <div class="brand">Her Own Worth</div>
       <p>Financial education for women who earn, delivered where they work. Founded in Mumbai, 2026.</p>
     </div>
     <div>
-      <h4>Pages</h4>
+      <h4>PAGES</h4>
       <ul>
         <li><a href="programme.html">The programme</a></li>
         <li><a href="research.html">Research</a></li>
-        <li><a href="employers.html">For employers</a></li>
+        <li><a href="employers.html">Host the programme</a></li>
         <li><a href="about.html">About and contact</a></li>
       </ul>
     </div>
     <div>
-      <h4>Contact</h4>
+      <h4>CONTACT</h4>
       <ul>
         <li><a href="mailto:hello@herownworth.com">hello@herownworth.com</a></li>
         <li>Alibag and Mumbai, Maharashtra</li>
       </ul>
     </div>
-    <div class="legal">&copy; 2026 Her Own Worth. Participant data is collected with written consent and reported only in anonymised form.</div>
+    <div class="legal">&copy; 2026 Her Own Worth. Her Own Worth is a financial education programme. It does not give investment advice, does not recommend, sell or distribute any financial product, and is not registered as an investment adviser. Participant data is collected with written consent and reported only in anonymised form. Photographs on this site are stock images from Unsplash until participant photographs are added with consent.</div>
   </div>
 </footer>
+<script>
+(function(){
+  var els=document.querySelectorAll('[data-count]');
+  if(!('IntersectionObserver' in window)||!els.length) return;
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting) return; io.unobserve(e.target);
+      var el=e.target, end=parseInt(el.getAttribute('data-count'),10), pre=el.getAttribute('data-prefix')||'', suf=el.getAttribute('data-suffix')||'';
+      if(reduce){ el.textContent=pre+end+suf; return; }
+      var t0=null, dur=1400;
+      function step(ts){ if(!t0) t0=ts; var p=Math.min(1,(ts-t0)/dur); p=1-Math.pow(1-p,3); el.textContent=pre+Math.round(end*p)+suf; if(p<1) requestAnimationFrame(step); }
+      requestAnimationFrame(step);
+    });
+  },{threshold:.4});
+  els.forEach(function(el){ el.textContent=(el.getAttribute('data-prefix')||'')+'0'+(el.getAttribute('data-suffix')||''); io.observe(el); });
+})();
+</script>
 </body>
 </html>

@@ -8,80 +8,86 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,450;0,7..72,500;1,7..72,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="4" fill="#0F4C5C"/><path d="M9 10h14M9 15h14M9 20h9" stroke="#F7F6F1" stroke-width="2" stroke-linecap="round"/><circle cx="23" cy="21" r="3" fill="#E3A325"/></svg>Her Own Worth</a>
+    <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="4" fill="#F2A900"/><path d="M9 10h14M9 15h14M9 20h9" stroke="#06262F" stroke-width="2.6" stroke-linecap="round"/><circle cx="23" cy="21" r="3.2" fill="#06262F"/></svg>Her Own Worth</a>
     <button class="menu-btn" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">Menu</button>
     <nav class="main" id="nav" aria-label="Main">
       <a href="index.html">Home</a>
       <a href="programme.html">The programme</a>
       <a href="research.html">Research</a>
-      <a href="employers.html">For employers</a>
       <a href="about.html" aria-current="page">About</a>
+      <a class="cta" href="employers.html">Host the programme</a>
     </nav>
   </div>
 </header>
 <main>
 
-<section class="page-head">
-  <div class="wrap">
-    <p class="kicker">About</p>
-    <h1>It started with twenty women and a beach resort.</h1>
-  </div>
-</section>
-
-<section class="tight">
-  <div class="wrap split">
-    <div><h2>How it began</h2></div>
-    <div>
-      <p class="lead">Her Own Worth was founded in Mumbai in 2026 by Sanaa Jethani, who has worked in finance since 2021.</p>
-      <p>The idea came from two things seen side by side: how much wealth sat with a very few people she had studied alongside, and how little financial knowledge had reached the women who cooked, cleaned and ran the front desks of the places she visited. A friend's family resort in Alibag agreed to host the first course. Twenty women on its staff took part.</p>
-      <p>What the first cohort taught us shaped everything on this site: that the account is rarely hers, that borrowing is the most urgent question, and that many of these women have saved carefully for decades without anyone ever explaining to them how to make that saving work harder.</p>
-    </div>
-  </div>
-</section>
-
-<section class="tint">
-  <div class="wrap split">
-    <div><h2>What we believe</h2></div>
-    <div>
-      <ul class="rows">
-        <li><b>Education, not advice</b><p>We explain how money works. We do not tell anyone what to buy, and we do not sell anything. Every decision belongs to the participant.</p></li>
-        <li><b>Her own name</b><p>Independence means an account, a budget and a plan that are hers, whatever her household looks like.</p></li>
-        <li><b>The same standard for everyone</b><p>The quality of explanation a wealthy client gets should not depend on income. We teach to that standard.</p></li>
-        <li><b>Measure honestly</b><p>We report what we observe, in aggregate and with consent, and we say plainly what we do not know.</p></li>
-      </ul>
-    </div>
-  </div>
+<section class="hero short">
+  <div class="text"><div>
+    <h1 class="reveal">It started with <em>twenty women</em> and a beach resort.</h1>
+    <p class="lead reveal d1">Her Own Worth was founded in Mumbai in 2026. The first course ran for the women on the staff of a resort in Alibag, Maharashtra.</p>
+    
+  </div></div>
+  <div class="pic"><img src="https://images.unsplash.com/photo-1794247071981-024c69666617?auto=format&fit=crop&q=75&w=1600" alt="A wide sandy beach on the Konkan coast" fetchpriority="high" style="--pos:50% 30%"><span class="credit">Photo: Unsplash</span></div>
 </section>
 
 <section>
   <div class="wrap split">
-    <div><h2>Partners</h2></div>
+    <div class="photo tall"><img src="https://images.unsplash.com/photo-1587538018365-2a1f8b544c08?auto=format&fit=crop&q=75&w=1000" alt="Women in bright saris standing together" loading="lazy"></div>
     <div>
-      <p>Our first host, a beach resort in Alibag, Maharashtra, will be named here with its permission. We are in conversation with further hosts in the Alibag and Mumbai area and welcome enquiries from anywhere in India.</p>
-      <p><a class="btn ghost" href="employers.html">Become a host</a></p>
+      <span class="eyebrow">How it began</span>
+      <h2>Two things, seen side by side.</h2>
+      <p class="lead">Founded by Sanaa Jethani, who has worked in finance since 2021.</p>
+      <p>The idea came from two things seen together: how much wealth sat with a very few people she had studied alongside, and how little financial knowledge had reached the women who cooked, cleaned and ran the front desks of the places she visited. A friend's family resort in Alibag agreed to host the first course. Twenty women on its staff took part.</p>
+      <p>What the first cohort taught us shaped everything on this site: that the account is rarely hers, that borrowing is the most urgent question, and that many of these women have saved carefully for decades without anyone explaining how to make that saving work harder.</p>
     </div>
   </div>
 </section>
 
-<section class="tint tight" id="contact">
-  <div class="wrap split">
-    <div><h2>Contact</h2></div>
-    <div>
-      <p><a href="mailto:hello@herownworth.com">hello@herownworth.com</a><br>Alibag and Mumbai, Maharashtra, India</p>
-      <p class="muted">For hosting enquiries, use the <a href="employers.html#enquire">employer form</a>. For research, press or partnership questions, email us.</p>
-    </div>
+<section class="dark">
+  <div class="wrap">
+    <span class="eyebrow">What we believe</span>
+    <h2>Four rules we don't bend.</h2>
+    <ul class="rows" style="margin-top:26px">
+      <li><b>Education, not advice</b><p>We explain how money works. We do not tell anyone what to buy, and we do not sell anything. Every decision belongs to the participant.</p></li>
+      <li><b>Her own name</b><p>Independence means an account, a budget and a plan that are hers, whatever her household looks like.</p></li>
+      <li><b>The same standard for everyone</b><p>The quality of explanation a wealthy client gets should not depend on income. We teach to that standard.</p></li>
+      <li><b>Measure honestly</b><p>We report what we observe, in aggregate and with consent, and we say plainly what we do not know.</p></li>
+    </ul>
   </div>
 </section>
-<section class="tight" id="disclaimer">
+
+<section class="tight">
   <div class="wrap">
-    <div class="note">
-      <strong>What we are and are not.</strong> Her Own Worth is a financial education programme. It does not give investment advice, does not recommend, sell or distribute any financial product, and is not registered as an investment adviser. Sessions explain how money, saving, insurance and borrowing work in plain language; every decision stays with the participant.
+    <div class="strip">
+      <div><img src="https://images.unsplash.com/photo-1463335361701-e90f4c5045d0?auto=format&fit=crop&q=75&w=700" alt="" loading="lazy"></div>
+      <div><img src="https://images.unsplash.com/photo-1707721690544-781fe6ede937?auto=format&fit=crop&q=75&w=700" alt="" loading="lazy"></div>
+      <div><img src="https://images.unsplash.com/photo-1622182605529-ee049ded8c82?auto=format&fit=crop&q=75&w=700" alt="" loading="lazy"></div>
+      <div><img src="https://images.unsplash.com/photo-1688013566793-849ce35316e6?auto=format&fit=crop&q=75&w=700" alt="" loading="lazy"></div>
+    </div>
+    <p class="muted" style="font-size:.85rem;margin-top:10px">Stock photographs from Unsplash, to be replaced with participant photographs taken with consent.</p>
+  </div>
+</section>
+
+<section class="mist">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Partners</span>
+      <h2>Our first host, and the next.</h2>
+      <p>Our first host, a beach resort in Alibag, Maharashtra, will be named here with its permission. We are in conversation with further hosts in the Alibag and Mumbai area and welcome enquiries from anywhere in India.</p>
+      <a class="btn teal" href="employers.html">Become a host</a>
+    </div>
+    <div id="contact">
+      <span class="eyebrow">Contact</span>
+      <h2>Write to us.</h2>
+      <p class="lead"><a href="mailto:hello@herownworth.com">hello@herownworth.com</a></p>
+      <p>Alibag and Mumbai, Maharashtra, India. For hosting enquiries, use the <a href="employers.html#enquire">employer form</a>. For research, press or partnership questions, email us.</p>
     </div>
   </div>
 </section>
@@ -90,27 +96,45 @@
 <footer>
   <div class="wrap">
     <div>
-      <h4>Her Own Worth</h4>
+      <div class="brand">Her Own Worth</div>
       <p>Financial education for women who earn, delivered where they work. Founded in Mumbai, 2026.</p>
     </div>
     <div>
-      <h4>Pages</h4>
+      <h4>PAGES</h4>
       <ul>
         <li><a href="programme.html">The programme</a></li>
         <li><a href="research.html">Research</a></li>
-        <li><a href="employers.html">For employers</a></li>
+        <li><a href="employers.html">Host the programme</a></li>
         <li><a href="about.html">About and contact</a></li>
       </ul>
     </div>
     <div>
-      <h4>Contact</h4>
+      <h4>CONTACT</h4>
       <ul>
         <li><a href="mailto:hello@herownworth.com">hello@herownworth.com</a></li>
         <li>Alibag and Mumbai, Maharashtra</li>
       </ul>
     </div>
-    <div class="legal">&copy; 2026 Her Own Worth. Participant data is collected with written consent and reported only in anonymised form.</div>
+    <div class="legal">&copy; 2026 Her Own Worth. Her Own Worth is a financial education programme. It does not give investment advice, does not recommend, sell or distribute any financial product, and is not registered as an investment adviser. Participant data is collected with written consent and reported only in anonymised form. Photographs on this site are stock images from Unsplash until participant photographs are added with consent.</div>
   </div>
 </footer>
+<script>
+(function(){
+  var els=document.querySelectorAll('[data-count]');
+  if(!('IntersectionObserver' in window)||!els.length) return;
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting) return; io.unobserve(e.target);
+      var el=e.target, end=parseInt(el.getAttribute('data-count'),10), pre=el.getAttribute('data-prefix')||'', suf=el.getAttribute('data-suffix')||'';
+      if(reduce){ el.textContent=pre+end+suf; return; }
+      var t0=null, dur=1400;
+      function step(ts){ if(!t0) t0=ts; var p=Math.min(1,(ts-t0)/dur); p=1-Math.pow(1-p,3); el.textContent=pre+Math.round(end*p)+suf; if(p<1) requestAnimationFrame(step); }
+      requestAnimationFrame(step);
+    });
+  },{threshold:.4});
+  els.forEach(function(el){ el.textContent=(el.getAttribute('data-prefix')||'')+'0'+(el.getAttribute('data-suffix')||''); io.observe(el); });
+})();
+</script>
 </body>
 </html>
